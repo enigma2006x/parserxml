@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A97DAD6C16EBC13E00E64DA1 /* RXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A97DAD6B16EBC13E00E64DA1 /* RXMLElement.m */; };
 		A9E991C516EB9BC2004C048E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E991C416EB9BC2004C048E /* UIKit.framework */; };
 		A9E991C716EB9BC2004C048E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E991C616EB9BC2004C048E /* Foundation.framework */; };
 		A9E991C916EB9BC2004C048E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E991C816EB9BC2004C048E /* CoreGraphics.framework */; };
@@ -28,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A97DAD6A16EBC13E00E64DA1 /* RXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXMLElement.h; sourceTree = "<group>"; };
+		A97DAD6B16EBC13E00E64DA1 /* RXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXMLElement.m; sourceTree = "<group>"; };
 		A9E991C016EB9BC2004C048E /* ParserXML2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParserXML2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E991C416EB9BC2004C048E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A9E991C616EB9BC2004C048E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -70,6 +73,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A97DAD6916EBC13E00E64DA1 /* RaptureXML */ = {
+			isa = PBXGroup;
+			children = (
+				A97DAD6A16EBC13E00E64DA1 /* RXMLElement.h */,
+				A97DAD6B16EBC13E00E64DA1 /* RXMLElement.m */,
+			);
+			path = RaptureXML;
+			sourceTree = "<group>";
+		};
 		A9E991B516EB9BC1004C048E = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +113,7 @@
 		A9E991CA16EB9BC2004C048E /* ParserXML2 */ = {
 			isa = PBXGroup;
 			children = (
+				A97DAD6916EBC13E00E64DA1 /* RaptureXML */,
 				A9E991D316EB9BC2004C048E /* AppDelegate.h */,
 				A9E991D416EB9BC2004C048E /* AppDelegate.m */,
 				A9E991DC16EB9BC2004C048E /* MainStoryboard.storyboard */,
@@ -211,6 +224,7 @@
 				A9E991F716EB9D16004C048E /* KissXMLViewController.m in Sources */,
 				A9E991FA16EB9D24004C048E /* NSXMLParserViewController.m in Sources */,
 				A9E991FD16EB9D37004C048E /* PlayerViewController.m in Sources */,
+				A97DAD6C16EBC13E00E64DA1 /* RXMLElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +341,7 @@
 				A9E991F116EB9BC2004C048E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
