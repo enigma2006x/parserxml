@@ -12,3 +12,5 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+#define kFeed @"http://espndeportes.espn.go.com/podcast/podCast?id=531707"
