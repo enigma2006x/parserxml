@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A97DAD6C16EBC13E00E64DA1 /* RXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A97DAD6B16EBC13E00E64DA1 /* RXMLElement.m */; };
+		A97DAD7E16EBC1BC00E64DA1 /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A97DAD7116EBC1BC00E64DA1 /* DDXMLElementAdditions.m */; };
+		A97DAD7F16EBC1BC00E64DA1 /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = A97DAD7416EBC1BC00E64DA1 /* NSString+DDXML.m */; };
+		A97DAD8016EBC1BC00E64DA1 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = A97DAD7716EBC1BC00E64DA1 /* DDXMLDocument.m */; };
+		A97DAD8116EBC1BC00E64DA1 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A97DAD7916EBC1BC00E64DA1 /* DDXMLElement.m */; };
+		A97DAD8216EBC1BC00E64DA1 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A97DAD7B16EBC1BC00E64DA1 /* DDXMLNode.m */; };
 		A9E991C516EB9BC2004C048E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E991C416EB9BC2004C048E /* UIKit.framework */; };
 		A9E991C716EB9BC2004C048E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E991C616EB9BC2004C048E /* Foundation.framework */; };
 		A9E991C916EB9BC2004C048E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E991C816EB9BC2004C048E /* CoreGraphics.framework */; };
@@ -31,6 +36,18 @@
 /* Begin PBXFileReference section */
 		A97DAD6A16EBC13E00E64DA1 /* RXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXMLElement.h; sourceTree = "<group>"; };
 		A97DAD6B16EBC13E00E64DA1 /* RXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXMLElement.m; sourceTree = "<group>"; };
+		A97DAD7016EBC1BC00E64DA1 /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		A97DAD7116EBC1BC00E64DA1 /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		A97DAD7316EBC1BC00E64DA1 /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
+		A97DAD7416EBC1BC00E64DA1 /* NSString+DDXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDXML.m"; sourceTree = "<group>"; };
+		A97DAD7516EBC1BC00E64DA1 /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXML.h; sourceTree = "<group>"; };
+		A97DAD7616EBC1BC00E64DA1 /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLDocument.h; sourceTree = "<group>"; };
+		A97DAD7716EBC1BC00E64DA1 /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLDocument.m; sourceTree = "<group>"; };
+		A97DAD7816EBC1BC00E64DA1 /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElement.h; sourceTree = "<group>"; };
+		A97DAD7916EBC1BC00E64DA1 /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElement.m; sourceTree = "<group>"; };
+		A97DAD7A16EBC1BC00E64DA1 /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		A97DAD7B16EBC1BC00E64DA1 /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
+		A97DAD7D16EBC1BC00E64DA1 /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
 		A9E991C016EB9BC2004C048E /* ParserXML2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParserXML2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E991C416EB9BC2004C048E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A9E991C616EB9BC2004C048E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -82,6 +99,49 @@
 			path = RaptureXML;
 			sourceTree = "<group>";
 		};
+		A97DAD6E16EBC1BC00E64DA1 /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				A97DAD6F16EBC1BC00E64DA1 /* Additions */,
+				A97DAD7216EBC1BC00E64DA1 /* Categories */,
+				A97DAD7516EBC1BC00E64DA1 /* DDXML.h */,
+				A97DAD7616EBC1BC00E64DA1 /* DDXMLDocument.h */,
+				A97DAD7716EBC1BC00E64DA1 /* DDXMLDocument.m */,
+				A97DAD7816EBC1BC00E64DA1 /* DDXMLElement.h */,
+				A97DAD7916EBC1BC00E64DA1 /* DDXMLElement.m */,
+				A97DAD7A16EBC1BC00E64DA1 /* DDXMLNode.h */,
+				A97DAD7B16EBC1BC00E64DA1 /* DDXMLNode.m */,
+				A97DAD7C16EBC1BC00E64DA1 /* Private */,
+			);
+			path = KissXML;
+			sourceTree = "<group>";
+		};
+		A97DAD6F16EBC1BC00E64DA1 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				A97DAD7016EBC1BC00E64DA1 /* DDXMLElementAdditions.h */,
+				A97DAD7116EBC1BC00E64DA1 /* DDXMLElementAdditions.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		A97DAD7216EBC1BC00E64DA1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A97DAD7316EBC1BC00E64DA1 /* NSString+DDXML.h */,
+				A97DAD7416EBC1BC00E64DA1 /* NSString+DDXML.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A97DAD7C16EBC1BC00E64DA1 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				A97DAD7D16EBC1BC00E64DA1 /* DDXMLPrivate.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
 		A9E991B516EB9BC1004C048E = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +173,7 @@
 		A9E991CA16EB9BC2004C048E /* ParserXML2 */ = {
 			isa = PBXGroup;
 			children = (
+				A97DAD6E16EBC1BC00E64DA1 /* KissXML */,
 				A97DAD6916EBC13E00E64DA1 /* RaptureXML */,
 				A9E991D316EB9BC2004C048E /* AppDelegate.h */,
 				A9E991D416EB9BC2004C048E /* AppDelegate.m */,
@@ -225,6 +286,11 @@
 				A9E991FA16EB9D24004C048E /* NSXMLParserViewController.m in Sources */,
 				A9E991FD16EB9D37004C048E /* PlayerViewController.m in Sources */,
 				A97DAD6C16EBC13E00E64DA1 /* RXMLElement.m in Sources */,
+				A97DAD7E16EBC1BC00E64DA1 /* DDXMLElementAdditions.m in Sources */,
+				A97DAD7F16EBC1BC00E64DA1 /* NSString+DDXML.m in Sources */,
+				A97DAD8016EBC1BC00E64DA1 /* DDXMLDocument.m in Sources */,
+				A97DAD8116EBC1BC00E64DA1 /* DDXMLElement.m in Sources */,
+				A97DAD8216EBC1BC00E64DA1 /* DDXMLNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
